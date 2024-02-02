@@ -1,0 +1,63 @@
+Readme
+“Bike ProteKt's” Strategic Entry into Germany's Online Insurance Sector
+•	Criteria: Specifies whether it's a "Fahrrad" or an "E-Bike".
+•	Cost of Bike: Indicates the cost of the bike.
+•	Assistance: Specifies if there is assistance available or not.
+•	Segment: Defines the segment of the bike, such as “Cheap”, "Price-performance recommendation" or "Performance recommendation".
+•	Rating: Provides a numeric rating for the bike.
+•	Price: Indicates the price value.
+•	Provider: Lists the providers or insurance companies.
+•	Rank (Sorted by price (Default)): Specifies the rank of the bike based on price.
+•	Location: Represents the location, such as "bayern", "lower saxony", etc.
+•	Product_Variant: Describes the product variant or type of insurance.
+•	Product_Category: Indicates the category of the product or insurance.
+
+Project Objective: To enter the online bike insurance market in Germany by offering Bike ProteKt's insurance products through Check 24, the largest online comparison portal in the country, and targeting different customer segments.
+Background: Bike ProteKt plans to start by conducting a competitor analysis on Check 24 in order to identify the right competitor and develop a competitive product and pricing strategy for all customer segments. This analysis will provide insights into pricing trends and distribution in different locations, as well as the ratings logic used by Check 24 to categorize products into three segments: Cheap, Price-performance recommendation, and performance recommendation, which represent different customer segments.
+Activity: Conduct analysis to determine the ideal price and location targeting for all three customer segments, decide whether to focus on e-bike or normal bike customers, and perform any other necessary analysis to make informed decisions.
+
+
+
+
+
+
+
+Generic To-do's:
+
+1.	Top 5 providers based on Total counts across 3 segments(cheap, P-PR, PR) 
+
+2.	Detailed analysis for top 5 providers across 3 segments(Cheap, P-PR, PR)
+
+3.	Top 5 competitors based on Total counts across 3 segments(cheap, P-PR, PR) for E-Bikes
+
+4.	Top 5 competitors based on Total counts across 3 segments(cheap, P-PR, PR) across Fahrrad
+
+identify the changes over months, top 3 provider
+
+5.	Top 5 providers based on Total counts across 3 segments for different locations
+
+6.	Detailed analysis for top 3 providers of 3 segments across different location.
+
+7.	Top 3 providers based on Total counts across 3 segments(Cheap, P-PR, PR) for different locations & for E-Bikes
+
+8.	Top 3 providers based on Total counts across 3 segments(Cheap, P-PR, PR) for different locations & for Fahrrad
+
+
+           identify the changes over months, top 3 provider
+
+	The above analysis should be performed on every month together and by       
+
+filtering each month show the analysis
+
+
+9.	 Cost of bikes: 
+
+	 Low:-  500 – 3000 €
+	 Medium:- 3500 – 8000€
+	 High:- 8500 – 12000€
+           Which competitor is targeting what cost of Bike?
+     
+Machine Learning Techniques:
+* Price trends and predictions over 5 months to estimate the price changes,     provider changes
+
+LinearRegression() , RandomForestRegressor(), GradientBoostingRegressor(), KNNRegressor()
